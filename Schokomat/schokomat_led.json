@@ -1,0 +1,56 @@
+{
+  "States": [
+    "Start",
+    "1",
+    "2",
+    "3"
+  ],
+  "Transitions": {
+    "1": {
+      "Knopf1": {
+        "Output": ["LED2 an"],
+        "NextState": 2
+      },
+      "Knopf3": {
+        "Output": ["LED1 aus"],
+        "NextState": 1
+      },
+      "Knopf2": {
+        "Output": ["LED1 toggle"],
+        "NextState": 1
+      }
+    },
+    "2": {
+      "Knopf1": {
+        "Output": ["LED3 an"],
+        "NextState": 3
+      },
+      "Knopf3": {
+        "Output": ["LED2 aus"],
+        "NextState": 2
+      },
+      "Knopf2": {
+        "Output": ["LED2 toggle"],
+        "NextState": 2
+      }
+    },
+    "3": {
+      "Knopf1": {
+        "Output": [],
+        "NextState": 0
+      },
+      "Knopf3": {
+        "Output": ["LED3 aus"],
+        "NextState": 3
+      },
+      "Knopf2": {
+        "Output": ["LED3 toggle"],
+        "NextState": 3
+      }
+    },
+    "Start": {"Knopf1": {
+      "Output": ["LED1 an"],
+      "NextState": 1
+    }}
+  }
+}

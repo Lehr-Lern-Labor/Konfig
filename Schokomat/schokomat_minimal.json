@@ -1,0 +1,7 @@
+{
+  "States": ["Start"],
+  "Transitions": {"Start": {"Knopf1": {
+    "Output": ["LED1 toggle"],
+    "NextState": 0
+  }}}
+}

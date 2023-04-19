@@ -1,0 +1,25 @@
+{
+  "States": ["Start"],
+  "Transitions": {"Start": {
+    "Knopf1": {
+      "Output": ["Item1"],
+      "NextState": 0
+    },
+    "Münze2": {
+      "Output": ["Münze2"],
+      "NextState": 0
+    },
+    "Münze1": {
+      "Output": ["Münze1"],
+      "NextState": 0
+    },
+    "Knopf3": {
+      "Output": ["Item3"],
+      "NextState": 0
+    },
+    "Knopf2": {
+      "Output": ["Item2"],
+      "NextState": 0
+    }
+  }}
+}

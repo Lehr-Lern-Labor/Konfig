@@ -1,0 +1,62 @@
+<object-stream>
+  <edu.kit.iti.formal.mymachine.Machine id="1">
+    <machineElements class="linked-hash-map" id="2">
+      <entry>
+        <string>Knopf An/Aus</string>
+        <edu.kit.iti.formal.mymachine.panel.Button id="3">
+          <position id="4">
+            <x>298</x>
+            <y>271</y>
+          </position>
+          <dimension id="5">
+            <width>100</width>
+            <height>100</height>
+          </dimension>
+          <active>true</active>
+          <name>An/Aus</name>
+        </edu.kit.iti.formal.mymachine.panel.Button>
+      </entry>
+      <entry>
+        <string>LED #</string>
+        <edu.kit.iti.formal.mymachine.panel.LED id="6">
+          <position id="7">
+            <x>297</x>
+            <y>142</y>
+          </position>
+          <dimension id="8">
+            <width>50</width>
+            <height>50</height>
+          </dimension>
+          <active>false</active>
+          <name>#</name>
+        </edu.kit.iti.formal.mymachine.panel.LED>
+      </entry>
+    </machineElements>
+    <states id="9">
+      <entry>
+        <string>Start</string>
+        <edu.kit.iti.formal.mymachine.automata.State id="10">
+          <name>Start</name>
+          <position id="11">
+            <x>268</x>
+            <y>280</y>
+          </position>
+        </edu.kit.iti.formal.mymachine.automata.State>
+      </entry>
+    </states>
+    <fixedInterface id="12">
+      <value>false</value>
+    </fixedInterface>
+    <transitions id="13">
+      <edu.kit.iti.formal.mymachine.automata.Transition id="14">
+        <from reference="10"/>
+        <to reference="10"/>
+        <trigger class="edu.kit.iti.formal.mymachine.panel.Button" reference="3"/>
+        <output class="edu.kit.iti.formal.mymachine.panel.LED" reference="6"/>
+        <messageIndex>2</messageIndex>
+        <messageIndex2>0</messageIndex2>
+      </edu.kit.iti.formal.mymachine.automata.Transition>
+    </transitions>
+    <displayStrings id="15"/>
+  </edu.kit.iti.formal.mymachine.Machine>
+</object-stream>
