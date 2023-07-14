@@ -41,7 +41,7 @@
 # Skripte auf Desktop
 * Projektordner von GitHub: if(!exist) clone else pull
   * *Token/SSH-Key hinterlegen, um private Repos klonen zu können*
-* Reset: Projektordner löschen, *Sphero-Programme zurücksetzen*, *Passwort-Schutz: LLL*
+* Reset: Projektordner auf Desktop löschen, Downloads löschen, *Sphero-Programme zurücksetzen*, *Passwort-Schutz: LLL*, *Papierkorb leeren*
 
 # VM für Science Camp KI
 * Git
