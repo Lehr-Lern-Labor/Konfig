@@ -1,7 +1,7 @@
 # Allgemeines
 * Nutzer: `Lehr-Lern-LaborX` (X = Zahl auf Rechner)
-* Passwort: `Informatik` (**unbegrenzt**)
-* Internetzugriff **via KIT-WLAN**
+* Passwort: `Informatik` (unbegrenzt)
+* Internetzugriff via KIT-WLAN
 * Ruhezustand im Energiemenü anzeigen
 * Bildschirm im Netzbetrieb nie ausschalten
 * Anzeigeeinstellungen > Skalierung auf 100%
@@ -20,6 +20,7 @@
   * Lehr-Lern-Labor Informatik (https://lehr-lern-labor.info)
   * virtuLLL (https://lehr-lern-labor.info/virtuLLL)
   * KIT (https://www.kit.edu/)
+  * **WebTigerPython (https://webtigerpython.ethz.ch/)**
 * Beispielkonfiguration: Desktop_example.png ![](Desktop_example.png)
 * Bildschirmhintergrund: Background.png ![](Background.png)
 * Sperrbilschirm: Homescreen.png ![](Homescreen.png)
@@ -27,7 +28,7 @@
 # Software
 * Git
 * Java (JRE)
-* Google Chrome (**Standardbrowser**)
+* Google Chrome (Standardbrowser)
 * MS Office
 * Visual Studio Code
 * Sphero Edu (https://www.microsoft.com/p/sphero-edu/9n2796r62xlz)
@@ -36,7 +37,7 @@
   * *Standardprogramme hinterlegen*
 * Thonny (https://thonny.org/)
 * *OneDrive deaktivieren*
-
+* **OpenSCAD (https://openscad.org/)**
 
 # Skripte auf Desktop
 * Projektordner von GitHub: if(!exist) clone else pull
